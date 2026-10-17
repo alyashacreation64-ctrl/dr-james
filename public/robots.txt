@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://underbergmd.com/sitemap.xml
