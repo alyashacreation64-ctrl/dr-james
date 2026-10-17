@@ -105,11 +105,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               <div className="relative rounded-2xl overflow-hidden border border-slate-200/90 bg-white shadow-xl shadow-slate-900/5 group">
                 <div className="aspect-[4/3] sm:aspect-[16/11] lg:aspect-[4/3] relative overflow-hidden bg-slate-100">
                   <img
-                    src="/src/assets/images/clinic_interior_architectural_1792246618028.jpg"
+                    src="/images/clinic_interior.jpg"
                     alt="Dr. James A. Underberg Medical Consultation Office in Midtown Manhattan"
                     className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-700 ease-out"
                     loading="eager"
                     referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      // Fallback if needed
+                      (e.currentTarget as HTMLImageElement).src = '/images/clinic_interior_architectural_1792246618028.jpg';
+                    }}
                   />
                   {/* Subtle vignette gradient for crisp depth */}
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/20 to-transparent pointer-events-none" />

@@ -221,7 +221,7 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     readTime: '5 min read',
     summary:
       'Beyond basic total cholesterol: how ApoB, LDL-C, triglycerides, and Lp(a) inform modern cardiovascular risk assessment.',
-    image: '/src/assets/images/cholesterol_lipid_science_1792246595419.jpg',
+    image: '/images/cholesterol_science.jpg',
     publishDate: 'Updated 2026',
     content: [
       'When patients receive standard cholesterol results, they are frequently confronted with a series of numbers that can feel opaque. Traditional lipid panels measure total cholesterol, high-density lipoprotein cholesterol (HDL-C), low-density lipoprotein cholesterol (LDL-C), and triglycerides. While helpful, modern lipidology demonstrates that cardiovascular risk assessment requires a deeper look into atherogenic particles.',
@@ -246,7 +246,7 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     readTime: '6 min read',
     summary:
       'Why waiting for symptoms in cardiovascular disease is outdated, and how early risk stratification transforms patient outcomes.',
-    image: '/src/assets/images/clinic_interior_architectural_1792246618028.jpg',
+    image: '/images/clinic_interior.jpg',
     publishDate: 'Updated 2026',
     content: [
       'Atherosclerosis—the gradual buildup of fatty, calcified plaques within the arterial walls—develops silently over decades before producing symptoms such as angina or shortness of breath. In fact, for a substantial proportion of patients, the very first symptom of coronary artery disease is an acute coronary event.',
@@ -271,7 +271,7 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     readTime: '4 min read',
     summary:
       'Clinically grounded daily practices in sleep architecture, cardiovascular exercise, and nutrition that protect metabolic vitality.',
-    image: '/src/assets/images/preventive_wellness_longevity_1792246594908.jpg',
+    image: '/images/wellness_longevity.jpg',
     publishDate: 'Updated 2026',
     content: [
       'While advanced diagnostics and therapeutic medications are vital, the daily behavioral foundation remains a non-negotiable determinant of long-term health. Decades of clinical epidemiology consistently highlight three major pillars: physical activity, sleep architecture, and dietary pattern.',
@@ -296,7 +296,7 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     readTime: '5 min read',
     summary:
       'Shifting the focus from lifespan to healthspan: how personalized clinical oversight preserves functional independence.',
-    image: '/src/assets/images/preventive_wellness_longevity_1792246594908.jpg',
+    image: '/images/cardiology_consult.jpg',
     publishDate: 'Updated 2026',
     content: [
       'The primary goal of modern internal medicine is not merely extending chronological years, but expanding healthspan—the period of life spent free from debilitating chronic disease and disability.',
